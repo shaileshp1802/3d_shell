@@ -1,0 +1,16 @@
+img {
+    width: 40%;
+    height: 40%;
+    border-radius: 2%;
+    margin: 2%;
+    transition: transform .2s;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+img:hover {
+    transform: scale(1.5);
+  }
